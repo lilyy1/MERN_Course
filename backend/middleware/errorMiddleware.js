@@ -1,6 +1,6 @@
 //middleware = functions that execute during req res cycle
 
-//going to oerwite express default error handler
+//going to overwite express default error handler
 const errorHandler = (err, req, res, next) => {
 
     //ternary conditional, if res has status code use it otherwise set statusCode to 500
